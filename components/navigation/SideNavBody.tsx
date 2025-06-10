@@ -6,23 +6,11 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
 } from '@/components/ui/sidebar';
-import { Home } from 'lucide-react';
-import { BarChart3 } from 'lucide-react';
 import Link from 'next/link';
 import { SideNavAdmin } from './SideNavAdmin';
+import { appConfig } from '@/config/app';
 
-const tools = [
-  {
-    title: 'Home',
-    icon: Home,
-    url: '/tools',
-  },
-  {
-    title: 'Analytics',
-    icon: BarChart3,
-    url: '/tools/analytics',
-  },
-];
+const tools = appConfig.navigation.tools;
 
 export function SideNavBody() {
   return (

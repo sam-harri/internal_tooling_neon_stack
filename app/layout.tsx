@@ -4,6 +4,7 @@ import { SidebarProvider } from '@/components/ui/sidebar';
 import { stackServerApp } from '../stack';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import { appConfig } from '@/config/app';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -16,8 +17,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Your Company',
-  description: 'Your Company Internal Tool',
+  title: appConfig.metadata.companyName,
+  description: appConfig.metadata.description,
 };
 
 export default function RootLayout({
