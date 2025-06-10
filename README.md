@@ -6,9 +6,7 @@ The core stack is built on a generous free tier, making it ideal for new project
 
 ![walkthrough of the template](/docs/template.gif)
 
-<!--
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyour-username%2Fyour-repo-name)
--->
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsam-harri%2Finternal_tooling_neon_stack.git&env=NEXT_PUBLIC_STACK_PROJECT_ID,NEXT_PUBLIC_STACK_PUBLISHABLE_CLIENT_KEY,STACK_SECRET_SERVER_KEY,DATABASE_URL&envDescription=First%20three%20are%20from%20your%20Stack%20Auth%20project%20for%20user%20authentication%2C%20last%20one%20is%20database%20connection%20string%20from%20the%20Neon%20database%20console&project-name=internal-tool&repository-name=internal-tool)
 
 ## Features
 
@@ -81,3 +79,16 @@ The application will be available at `http://localhost:3000`
 Since you're the first user ever of that project, head over to `http://localhost:3000/setup` after signing in to claim your admin priviliges.
 
 That it!
+
+
+## Deploying to Vercel
+
+## Create Vercel Project
+
+Add your newly created repo as a Vercel project, copy over all the values from your `.env`, and click `Deploy`
+
+## Update Stack Auth domains
+
+For the Stack Auth to work outside of localhost, add the domain Vercel gave you to the trusted domains in the `Domains` section of Stack dashboard
+
+and you're done. You have a hosted and secured internal tool dashboard and a Postgres database completly for free now!
