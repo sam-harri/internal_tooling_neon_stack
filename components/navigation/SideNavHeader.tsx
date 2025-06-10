@@ -13,7 +13,7 @@ export function SideNavHeader() {
       <SidebarMenu>
         <SidebarMenuItem>
           <SidebarMenuButton size="lg" className="data-[state=open]:bg-sidebar-accent">
-            <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-white text-white">
+            <div className="flex aspect-square size-8 items-center justify-center rounded-lg">
               <Image src={appConfig.metadata.logo} alt="your-logo" width={24} height={24} />
             </div>
             <div className="grid flex-1 text-left text-sm leading-tight">
