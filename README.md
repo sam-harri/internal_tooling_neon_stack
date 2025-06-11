@@ -6,7 +6,7 @@ The core stack is built on a generous free tier, making it ideal for new project
 
 ![walkthrough of the template](/docs/template.gif)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsam-harri%2Finternal_tooling_neon_stack.git&env=NEXT_PUBLIC_STACK_PROJECT_ID,NEXT_PUBLIC_STACK_PUBLISHABLE_CLIENT_KEY,STACK_SECRET_SERVER_KEY,DATABASE_URL&envDescription=First%20three%20are%20from%20your%20Stack%20Auth%20project%20for%20user%20authentication%2C%20last%20one%20is%20database%20connection%20string%20from%20the%20Neon%20database%20console&project-name=internal-tool&repository-name=internal-tool)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsam-harri%2Finternal_tooling_neon_stack&project-name=internal-tool-template&repository-name=internal-tool-template&integration-ids=oac_3sK3gnG06emjIEVL09jjntDD)
 
 ## Features
 
